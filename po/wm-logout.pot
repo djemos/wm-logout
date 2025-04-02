@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 23:22+0300\n"
+"POT-Creation-Date: 2025-04-03 00:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,25 +26,25 @@ msgid "Please select an action:"
 msgstr ""
 
 #: wm-logout:65
-msgid "_Shutdown"
+msgid "Shutdown"
 msgstr ""
 
 #: wm-logout:78
-msgid "_Log out"
+msgid "Log out"
 msgstr ""
 
 #: wm-logout:88
-msgid "_Reboot"
+msgid "Reboot"
 msgstr ""
 
 #: wm-logout:98
-msgid "_Suspend"
+msgid "Suspend"
 msgstr ""
 
 #: wm-logout:108
-msgid "_Hibernate"
+msgid "Hibernate"
 msgstr ""
 
 #: wm-logout:118
-msgid "_Cancel"
+msgid "Cancel"
 msgstr ""

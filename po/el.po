@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 23:08+0300\n"
-"PO-Revision-Date: 2025-04-02 23:09+0300\n"
+"POT-Creation-Date: 2025-04-03 00:40+0300\n"
+"PO-Revision-Date: 2025-04-03 00:42+0300\n"
 "Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
 "Language-Team: \n"
 "Language: el\n"
@@ -27,25 +27,25 @@ msgid "Please select an action:"
 msgstr "Παρακαλώ επιλέξτε μια ενέργεια:"
 
 #: wm-logout:65
-msgid "_Shutdown"
-msgstr "_Τερματισμός λειτουργίας"
+msgid "Shutdown"
+msgstr "Τερματισμός λειτουργίας"
 
 #: wm-logout:78
-msgid "_Log out"
-msgstr "Α_ποσύνδεση χρήστη"
+msgid "Log out"
+msgstr "Αποσύνδεση χρήστη"
 
 #: wm-logout:88
-msgid "_Reboot"
-msgstr "_Επανεκκίνηση"
+msgid "Reboot"
+msgstr "Επανεκκίνηση"
 
 #: wm-logout:98
-msgid "_Suspend"
-msgstr "_Αναστολή λειτουργίας"
+msgid "Suspend"
+msgstr "Αναστολή λειτουργίας"
 
 #: wm-logout:108
-msgid "_Hibernate"
-msgstr "Α_δρανοποίηση"
+msgid "Hibernate"
+msgstr "Αδρανοποίηση"
 
 #: wm-logout:118
-msgid "_Cancel"
-msgstr "Α_κύρωση"
+msgid "Cancel"
+msgstr "Ακύρωση"
