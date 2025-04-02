@@ -10,7 +10,7 @@ git clone https://github.com/djemos/wm-logout.git
 mv wm-logout/SLKBUILD ./
 mv wm-logout/xlogout ./
 
-tar -cvjSf wm-logout.tar.bz2 wm-logout
+tar -czvf wm-logout-1.0.tar.gz wm-logout
 
 fakeroot slkbuild -X
 
