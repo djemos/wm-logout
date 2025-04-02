@@ -51,7 +51,7 @@ class WMLogout(Gtk.Window):
         # Create shutdown button
         self.btn_shutdown = Gtk.Button('_Shutdown', None, True)         # Instantiate button
         self.btn_shutdown.set_border_width(btn_border_size)             # Set border width to sane amount        
-        self.image=Gtk.Image();
+        self.image = Gtk.Image();
         self.image.set_from_icon_name("gnome-shutdown", icon_size)
         self.btn_shutdown.set_property('image', self.image)
         self.btn_shutdown.connect("clicked", self.shutdown)             # Connect event handler
