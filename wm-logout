@@ -51,8 +51,8 @@ class WMLogout(Gtk.Window):
         # Create shutdown button
         self.btn_shutdown = Gtk.Button('_Shutdown', None, True)         # Instantiate button
         self.btn_shutdown.set_border_width(btn_border_size)             # Set border width to sane amount        
-        self.image = Gtk.Image()
-        self.image.set_from_file("/usr/share/icons/matefaenza/apps/24/gnome-shutdown.png")
+        self.image=Gtk.Image();
+        self.image.set_from_icon_name("gnome-shutdown", icon_size)
         self.btn_shutdown.set_property('image', self.image)
         self.btn_shutdown.connect("clicked", self.shutdown)             # Connect event handler
         self.box_top.pack_start(self.btn_shutdown, True, True, 0)       # Insert into the correct layout box
@@ -65,7 +65,7 @@ class WMLogout(Gtk.Window):
         self.btn_logout = Gtk.Button('_Log out', None, True)
         self.btn_logout.set_border_width(btn_border_size)        
         self.image = Gtk.Image()
-        self.image.set_from_file("/usr/share/icons/matefaenza/apps/24/gnome-logout.png")
+        self.image.set_from_icon_name("gnome-logout", icon_size)
         self.btn_logout.set_property('image', self.image)
         self.btn_logout.connect("clicked", self.logout)
         self.box_middle.pack_start(self.btn_logout, True, True, 0)
@@ -75,7 +75,7 @@ class WMLogout(Gtk.Window):
         self.btn_reboot = Gtk.Button('_Reboot', None, True)
         self.btn_reboot.set_border_width(btn_border_size)
         self.image = Gtk.Image()
-        self.image.set_from_file("/usr/share/icons/matefaenza/actions/24/reload.png")
+        self.image.set_from_icon_name("reload", icon_size)
         self.btn_reboot.set_property('image', self.image)
         self.btn_reboot.connect("clicked", self.reboot)
         self.box_middle.pack_start(self.btn_reboot, True, True, 0)
@@ -85,7 +85,7 @@ class WMLogout(Gtk.Window):
         self.btn_suspend = Gtk.Button('S_uspend', None, True)
         self.btn_suspend.set_border_width(btn_border_size)
         self.image = Gtk.Image()
-        self.image.set_from_file("/usr/share/icons/matefaenza/apps/24/gnome-session-suspend.png")
+        self.image.set_from_icon_name("gnome-session-suspend", icon_size)
         self.btn_suspend.set_property('image', self.image)
         self.btn_suspend.connect("clicked", self.suspend)
         self.box_middle.pack_start(self.btn_suspend, True, True, 0)
@@ -95,7 +95,7 @@ class WMLogout(Gtk.Window):
         self.btn_hibernate = Gtk.Button('_Hibernate', None, True)
         self.btn_hibernate.set_border_width(btn_border_size)
         self.image = Gtk.Image()
-        self.image.set_from_file("/usr/share/icons/matefaenza/apps/24/gnome-session-hibernate.png")
+        self.image.set_from_icon_name("gnome-session-hibernate", icon_size)
         self.btn_hibernate.set_property('image', self.image)
         self.btn_hibernate.connect("clicked", self.hibernate)
         self.box_middle.pack_start(self.btn_hibernate, True, True, 0)
