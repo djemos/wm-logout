@@ -5,7 +5,7 @@ pkgver=1.0
 pkgrel=1dj
 arch=noarch
 source=("http://people.salixos.org/djemos/salix/openbox/wm-logout/1.0/$pkgname-$pkgver.tar.gz" "xlogout")
-url="git://github.com/thenktor/wm-logout.git"
+url="https://github.com/djemos/wm-logout.git"
 docs=('AUTHORS' 'COPYING' 'ChangeLog')
 #options=('nosrcpack')
 
