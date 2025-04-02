@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-02 23:22+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wm-logout:32
+msgid "Exit"
+msgstr ""
+
+#: wm-logout:48
+msgid "Please select an action:"
+msgstr ""
+
+#: wm-logout:65
+msgid "_Shutdown"
+msgstr ""
+
+#: wm-logout:78
+msgid "_Log out"
+msgstr ""
+
+#: wm-logout:88
+msgid "_Reboot"
+msgstr ""
+
+#: wm-logout:98
+msgid "_Suspend"
+msgstr ""
+
+#: wm-logout:108
+msgid "_Hibernate"
+msgstr ""
+
+#: wm-logout:118
+msgid "_Cancel"
+msgstr ""

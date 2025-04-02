@@ -20,7 +20,7 @@ slackdesc=\
 build() {
 	
 cd $SRC/${pkgname}
-#sed -i "s/python/python3/g" wm-logout || return 1
-DESTDIR=$PKG sh install.sh || return 1
+./compile.sh || return 1
+DESTDIR=$startdir/pkg ./install.sh || return 1
 install -m755 $SRC/xlogout $PKG/usr/bin/ || return 1
 }
