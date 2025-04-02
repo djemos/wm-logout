@@ -18,7 +18,7 @@ class WMLogout(Gtk.Window):
         # Set up GTK window
         Gtk.Window.__init__(self, title="Exit")
         
-        icon_size = 3 
+        icon_size = Gtk.IconSize.BUTTON
         btn_border_size = 6
         self.set_deletable(False)
         self.set_resizable(False)
