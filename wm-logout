@@ -13,7 +13,7 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 import os
 import sys
-
+import subprocess
 
 # Internationalization
 import locale
@@ -129,7 +129,7 @@ class WMLogout(Gtk.Window):
         self.box_bottom.show()
         self.box_vert.show()
         self.set_focus(self.btn_logout)
-        
+       
     # Cancel/exit
     def cancel(self, widget=None, event=None, data=None):
         Gtk.main_quit()
@@ -137,8 +137,11 @@ class WMLogout(Gtk.Window):
 
     # Logout
     def logout(self, widget=None):
-        #os.system('openbox --exit')
-        os.system('xlogout')
+        window_manager_is_active = self.get_wm()
+        if window_manager_is_active == "Openbox":
+            os.system('openbox --exit')
+        else:   
+            os.system('xlogout')
         
     # Reboot
     def reboot(self, widget=None):
@@ -156,6 +159,16 @@ class WMLogout(Gtk.Window):
     def hibernate(self, widget=None):
         os.system('loginctl hibernate')
         
+    # Get Window Manager is active
+    def get_wm(self, widget=None):
+        output = subprocess.run(['wmctrl', '-m'], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        if output.stderr:
+            return(False)
+        else:
+            namestr=output.stdout.split('\n')[0]
+            window_manager=namestr.split(' ')[1]
+            return(window_manager)    
+                 
 if __name__ == "__main__":
     app = WMLogout()
     app.show_all()
