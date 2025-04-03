@@ -137,8 +137,8 @@ class WMLogout(Gtk.Window):
 
     # Logout
     def logout(self, widget=None):
-        os.system('openbox --exit')
-        #os.system('xlogout')
+        #os.system('openbox --exit')
+        os.system('xlogout')
         
     # Reboot
     def reboot(self, widget=None):
