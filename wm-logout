@@ -70,8 +70,7 @@ class WMLogout(Gtk.Window):
         self.btn_shutdown.connect("clicked", self.shutdown)             # Connect event handler
         self.box_top.pack_start(self.btn_shutdown, True, True, 0)       # Insert into the correct layout box
         self.btn_shutdown.show()                                        # Show button
-        
-        
+                
         # Now repeat for remaining buttons
         
         # Create logout button
