@@ -166,7 +166,7 @@ class WMLogout(Gtk.Window):
             return(False)
         else:
             namestr=output.stdout.split('\n')[0]
-            window_manager=namestr.split(' ')[1]
+            window_manager = namestr.split(' ')[1]
             return(window_manager)    
                  
 if __name__ == "__main__":
