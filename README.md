@@ -33,3 +33,6 @@ TerrorBite <https://launchpad.net/~terrorbite-industries>
 Arthur Spitzer <http://arthapex.wordpress.com/>  
 Philip Newborough <http://corenominal.org/>  
   
+
+![Alt text](https://files.mastodon.social/media_attachments/files/114/270/396/252/431/857/small/8182a3a0f00456ef.png)
+![Alt text](https://files.mastodon.social/media_attachments/files/114/270/422/345/072/532/original/c213bbf2758f6699.png)
