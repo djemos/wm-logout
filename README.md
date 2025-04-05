@@ -1,4 +1,4 @@
-**wm-logout**  
+**wm-logout**   
 A logout script for window managers like Openbox.  
 It features logout, shutdown, reboot & hibernate.  
 
